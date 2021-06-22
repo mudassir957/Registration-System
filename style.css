@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-size: 100%;
+  background: #F8F8FF;
+}
+
+
+.header {
+  width: 20%;
+  margin: 50px auto 0px;
+  color: #575b63;
+  background: #ffffff;
+  text-align: center;
+  border: 1px solid #4287f5;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+form, .content {
+  width: 20%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #4287f5;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+@media all and (max-width: 800px) {
+  .content,  .header, form{
+    width: 30%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .content,  .header, form{
+    width: 50%;
+  }
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 20px;
+  width: 90%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #4287f5;
+}
+.btn {
+  padding: 6px;
+  height: 36px;
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background: #2883eb;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #ffffff; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background:#ffffff; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.welcome{
+  height: 5vh;
+}
+.button_logout a.button {
+  position: relative;
+  top: 4px;
+  padding: 6px;
+  text-decoration: none;
+  background: #2883eb;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button_signup a.button{
+  color: #ffffff;
+  text-decoration: none;
+  background: #2883eb;
+  position: relative;
+  top: 0px;
+  padding: 6px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button_sign-in a.button{
+  color: red;
+  padding: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #2883eb;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
